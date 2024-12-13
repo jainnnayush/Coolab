@@ -1,0 +1,60 @@
+.searchBoxAllusers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AllusersFinalcss {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8em;
+  background-color: #f7f9fb;
+  padding: 2em;
+  font-family: "Work Sans", sans-serif;
+}
+.allUsersMainProfile {
+  padding: 5em 0 0 2em;
+}
+.allUsersOverlay {
+  width: 50vw;
+  background-color: white;
+}
+.searchBoxAllusers input {
+  width: 70vh;
+  font-size: 1em;
+  height: 2em;
+  margin-bottom: 2.3em;
+  padding-left: 1.2em;
+  margin-top: 2em;
+  border-radius: 9px;
+  border: 1px solid rgba(0,0,0,0.3);
+  outline: none;
+  font-family: "Work Sans", sans-serif;
+}
+
+@media (max-width: 912px) {
+  .searchBoxAllusers input {
+    width: 350px !important;
+  }
+}
+
+.UserhoverCard {
+  transition: 80ms ease-in-out;
+  margin: 1em;
+  padding: 0 1.1em;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border: 0;
+}
+.UsernameFromCard {
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: 90ms ease-in-out;
+}
+.UsernameFromCard:hover {
+  scale: 1.04;
+  cursor: pointer;
+}
+.UserhoverCard:hover {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+}

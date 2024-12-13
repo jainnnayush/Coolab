@@ -1,0 +1,49 @@
+/* Navbar.css */
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* Updated to space-between to separate "My Website" and navbar items */
+    align-items: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* Align items to the right */
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.navbarList {
+    margin-left: 15px;
+    /* Adjust the spacing between navbar items */
+}
+
+.navbarList:first-child {
+    margin-left: 0;
+    /* Remove left margin for the first child */
+}
+
+.navbarList a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbarList a:hover {
+    color: darkgray;
+}   

@@ -1,0 +1,209 @@
+.finalCourses-Overlay {
+  width: 100%;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  padding: 4em 2em 2em 2em;
+}
+
+.coursePageOverlay {
+  width: 50vw;
+}
+
+.Allcourses {
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.courseSearch input {
+  height: 30px !important;
+  width: 500px !important;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+  padding-left: 15px;
+  font-size: medium;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.SearchformCourseReview {
+  display: flex;
+  width: 30vw;
+  gap: 2em;
+  height: 3em;
+}
+
+.Searchform button {
+  background-color: white;
+  height: 1.87rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.Searchform button:hover {
+  color: #bfbaba;
+  cursor: pointer;
+}
+
+.filtercourse {
+  display: flex;
+}
+
+@media (max-width: 912px) {
+  .filtercourse button {
+    font-size: 0.7rem !important;
+
+    height: 2rem !important;
+  }
+  .filtercourse {
+    margin-left: 0;
+  }
+}
+.filtercourse button {
+  border: none;
+  height: 2rem;
+  padding: 0 2rem;
+  background-color: white;
+  border-left: 0.5px solid rgba(0, 0, 0, 0.2);
+  border-right: 0.5px solid rgba(0, 0, 0, 0.2);
+  color: black;
+  font-size: 1rem;
+}
+
+.filtercourse button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.filtercourse button:nth-of-type(1) {
+  border-right: none;
+}
+
+.cardBtn {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.cardBtn button {
+  border: none;
+  height: 3rem;
+  margin-bottom: 0px;
+  width: 180px;
+  background-color: white;
+  border-left: 0.5px solid rgba(0, 0, 0, 0.2);
+  color: black;
+  font-size: 1rem;
+}
+.cardBtn button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.doubtCardMainCourse {
+  background-color: white;
+  padding: 10px 25px 0px 25px;
+  width: 600px;
+  line-height: 1.5rem;
+  border: 2px solid rgba(69, 123, 157, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.doubtCardMainCourse:hover {
+  cursor: default;
+}
+.doubtCardUserCourse {
+  display: flex;
+  gap: 20px;
+}
+.doubtCardUserPhotoCourse {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.doubtCardUserNameCourse {
+  font-size: 20px;
+}
+.doubtCardUserType {
+  font-size: 15px;
+}
+.doubtCardPS {
+  padding: 5px 30px 5px 65px;
+}
+.doubtHelp {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.doubtUpvote {
+  background-color: transparent;
+  border: 0;
+
+  border-right: 1px solid black;
+  height: 35px;
+  width: 100px;
+}
+
+.doubtAnswer {
+  background-color: transparent;
+  border: 0;
+  border-left: 1px solid black;
+  height: 35px;
+  width: 100px;
+}
+.doubtSeperate {
+  padding: 0;
+  margin: 0px;
+}
+@media (max-width: 760px) {
+  .MainProfileCoursePAge {
+    display: none;
+  }
+}
+
+.dropDown {
+  display: none;
+}
+
+.doubtCommentSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 676px) {
+  .Searchform {
+    display: inline;
+  }
+
+  .Allcourses {
+    margin-left: -40px;
+    padding-right: 3rem;
+  }
+  .doubtCardMainCourse {
+    width: 400px !important;
+  }
+  .searchButn {
+    position: absolute;
+    margin-left: 95%;
+  }
+}
+.courseSearch {
+  display: flex;
+  align-items: center;
+}
+.searchButn {
+  height: 1.9rem !important;
+  border-radius: 0 9px 9px 0;
+}
+.courseSearch input {
+  border-radius: 8px 0 0 8px;
+}

@@ -1,0 +1,46 @@
+.feed-main-overlay {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
+  height: 70vh;
+}
+.feedSearchHeading {
+  width: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+.searchBarFeed {
+  width: 5em;
+}
+.feedFormOverlay {
+  display: flex;
+  gap: 1em;
+  padding: 0 4em;
+  height: 4em;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+.searchBarFeed {
+  width: 25em;
+  height: 3em;
+  border: 0;
+  padding: 0 2em;
+  font-family: "Work Sans", sans-serif;
+}
+.feedMainProjectList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 400px) {
+  .feedFormOverlay {
+    width: 60vw;
+    padding: 0;
+  }
+}

@@ -1,0 +1,46 @@
+.askHelpInputMain {
+  padding: 20px 30px;
+  height: 20vh;
+  width: 74vh;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.newHelpTtile {
+  font-size: 20px;
+}
+
+.askHelpInputSeperate {
+  width: 66vh;
+  color: gainsboro;
+  margin: 0;
+}
+
+.askHelpInputForm {
+  width: 67%;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65%;
+  padding: 10px 0 0 0;
+}
+.askHelpInputField {
+  width: 62vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3vh;
+  background-color: transparent;
+  border: 0px solid;
+  font-size: 25px;
+  padding: 4px 4px 4px 20px;
+}
+.askHelpInputButton {
+  height: 65%;
+  width: 9%;
+  border: 0;
+  background-color: #fff;
+  border-left: 1px solid gray;
+}

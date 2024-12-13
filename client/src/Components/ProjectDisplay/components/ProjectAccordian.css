@@ -1,0 +1,188 @@
+.accordian {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3.5em 0;
+
+}
+.accordianHeading {
+  list-style: none;
+  margin: 1em;
+  width: 80%;
+  padding: 10px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-left: 10%;
+}
+
+.accordian li label {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  font-size: 1.2em;
+  cursor: pointer;
+  
+}
+
+label::before {
+  content: "+";
+  margin-right: 0.8em;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.content {
+  line-height: 1em;
+  padding: 0 2em;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.3s, padding 0.3s;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+
+@media (max-width: 408px) {
+  .contentHead {
+    font-size: 18px; 
+  }
+  .accordianHeading {
+    padding: 1px;   
+  }
+  .accordian li label {
+    font-size: 16px; 
+  }
+}
+
+.accordian_heading_text{
+overflow: hidden;
+}
+
+.review_open{
+  line-height: 20px;
+    padding: 0 10px;
+    max-height: 200px;
+  
+    overflow-y: auto;
+  
+    transition: max-height 0.5s, padding 0.5s;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+}
+
+.reviewDisplay {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px 15px 0px;
+}
+
+.review_image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.reviewAuthor {
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  padding: 5px 15px 15px 15px;
+  border-radius: 5px;
+}
+
+.review_name {
+  padding-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.contentHead {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.accordian input[type="checkbox"]:checked + label + .content {
+  max-height: 200px;
+  padding: 0 2em;
+}
+
+.accordianHeading .content {
+  width: 100%;
+  display: block;
+
+  box-sizing: border-box;
+}
+
+.ProjectDisplay_Review {
+  width: 80%;
+  /* Takes full width */
+  box-sizing: border-box;
+
+  margin-bottom: 10px;
+}
+
+.reviewAccordian {
+  display: flex;
+}
+
+.ProjectDisplay_Review_Button {
+  display: block;
+  margin-left: auto;
+  margin-top: 0 px;
+  margin-bottom: 10px;
+  background-color: blue;
+  color: white;
+  padding: 4px 8px;
+  /* Reduced padding for a smaller button */
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  /* Keeps the rounded corners */
+}
+
+/* Optional: Improves the overall look of the textarea */
+.ProjectDisplay_Review {
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* Adds a light border */
+  border-radius: 4px;
+  /* Adds rounded corners */
+  resize: vertical;
+  /* Allows the user to resize the textarea vertically */
+}
+
+/* Styles for the review display rectangles */
+.reviewDisplay {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  border-radius: 8px;
+  position: relative;
+  /* Required for absolute positioning of the author label */
+}
+
+/* Updated styles for the author label to make it appear smaller */
+.reviewAuthor {
+  display: block;
+  /* Makes sure the author name is on its own line */
+  margin-bottom: 5px;
+  /* Adds a small space between the author name and the review content */
+  font-size: 0.75em;
+  /* Adjusts the font size to make it smaller */
+  font-weight: bold;
+  /* Makes the text bold */
+  color: #333;
+  /* Sets the text color */
+  /* padding-bottom: 2px; */
+  /* Adds padding at the bottom for visual separation */
+  /*   */
+  /* Adds a subtle line to separate the author name from the review content */
+}

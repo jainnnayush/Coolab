@@ -1,0 +1,69 @@
+
+
+.body_login {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-image_login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('iitglo.jpeg') center/cover no-repeat; 
+    filter: blur(5px);
+  }
+  
+  .background-image_login::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px; /* Adjust the size of the circles */
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 70%); /* Adjust the color and opacity */
+  }
+  
+  .background-image_login::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 60%);
+  }
+  
+  
+  
+  
+  .microsoft-button_login {
+    background: #ffffff; 
+    color: #000000;
+    position:absolute;
+    top:45%;
+    left:40%;
+    padding: 24x 48px;
+    border: none;
+    border-radius: 15px;
+    height:10%;
+    width:20%;
+    cursor: pointer;
+    font-size: 2.75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .microsoft-button_login img{
+   
+    width: 20px; 
+    margin-right: 10px; 
+  }

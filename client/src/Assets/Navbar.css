@@ -1,0 +1,25 @@
+.NavBarOverlay {
+  height: 80px;
+  background-color: #1D3557;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+.material-symbols-outlined {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.navbarLogo {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  
+}
+.navbarRoutes {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}

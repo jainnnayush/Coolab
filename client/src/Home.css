@@ -1,0 +1,28 @@
+.home_body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Work Sans", sans-serif;
+}
+.home_body_mid {
+  display: flex;
+}
+.sidebar {
+  margin: 7px;
+}
+.TopContributors {
+  margin: 10px;
+}
+.home_body_mid {
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+}
+
+@media (max-width: 400px) {
+  .home_body_mid {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    gap: 2vh;
+  }
+}

@@ -1,0 +1,57 @@
+.askHelperDropDown {
+  border: 0;
+  height: 25px;
+  background-color: transparent;
+}
+.dropDownTextAreaButton {
+  border: 0;
+  background-color: transparent;
+}
+.dropDownTextArea {
+  height: 30px;
+  width: 50vh;
+  border: 0;
+}
+
+.dropDownSubmit {
+  display: flex;
+  width: 100%;
+}
+#comments-dropdown {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.commentdisplay {
+  left: 0;
+  width: 100%;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.askHelperAnswers {
+  padding: 0px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.askHelperCommentanscontainer{
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0px 15px 0px;
+  
+}
+.askHelperCommentContentcont{
+  background-color: #F0F2F5;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  padding: 5px 15px 15px 15px;
+  border-radius: 5px;
+}
+.askHelperCommentuser{
+  padding-bottom: 5px;
+  font-size: 1.1em;
+}

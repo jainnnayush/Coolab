@@ -1,0 +1,38 @@
+.MainProfileOverlay {
+  background-color: #fcfdfd;
+  width: 18em;
+  height: 18em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 0;
+  gap: 1em;
+  cursor: default;
+  font-family: "Work Sans", sans-serif;
+  border: 1px solid black;
+}
+.MainProfileImage {
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+}
+.ProfileDetails {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ProfileName {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+.ProfileDiscription {
+  font-size: 0.7em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media (max-width: 400px) {
+  .MainProfileOverlay {
+    display: none;
+  }
+}

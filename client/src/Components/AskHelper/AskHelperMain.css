@@ -1,0 +1,29 @@
+.askHelperLayout {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.overlayHelper {
+  background-color: white;
+  display: flex;
+  padding: 6% 2% 2% 25%;
+  gap: 6vw;
+}
+.askHelperMainProfile {
+  padding: 2em 0;
+}
+.askHelpMain {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  background-color: white;
+}
+
+.doubtMain {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}

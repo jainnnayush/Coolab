@@ -1,0 +1,50 @@
+.ProfileForm-update {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    cursor: default;
+}
+.ProfileForm-lable::before {
+    content: '';
+}
+.ProfileForm-lable {
+    text-align: left;
+    display: block;
+}
+.ProfileForm-h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.ProfileForm-input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+.ProfileForm-textarea{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+.ProfileForm-select{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+.ProfileForm-submit{
+    background:#0A66C2;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}

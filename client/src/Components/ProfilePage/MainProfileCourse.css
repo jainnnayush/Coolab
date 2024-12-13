@@ -1,0 +1,14 @@
+.ProfileCourseOverlay {
+  border: 1px solid black;
+  padding: 1em;
+  overflow: scroll;
+  max-width: 100%;
+  min-height: 10em;
+}
+
+.courseHeading {
+  display: flex;
+  gap: 1em;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.4em;
+}

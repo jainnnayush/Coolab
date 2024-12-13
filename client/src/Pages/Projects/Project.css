@@ -1,0 +1,73 @@
+
+body{
+    background-color: #F7F9FB;   
+}
+
+.Searchformproject{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 15%;
+    background-color: white;
+    height: 45px;
+    width: 60%;
+}
+.Searchformproject button{
+     border:none;
+    height: 2.6rem;
+    width: 76px;
+    border-radius: 2px;
+    background-color:  #076FA6;
+    border:0.5px solid rgba(0,0,0,0.1);
+    color:white;
+}
+.Searchinput input{
+        height:30px !important;
+        width:400px !important;
+        border:none;
+        border-bottom: 1px solid black;
+        outline: none;
+        padding-left: 15px;
+        font-size: medium;
+}
+
+.projectTechused{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    line-height:0px;
+    border-top: 0.5px solid rgba(0,0,0,0.2);
+}
+.projectCard {
+    width:70%;
+    margin-bottom:30px;
+    border:3px solid white;
+    height:max-content;
+    color: black !important;
+    margin-right:12px;
+    margin-top: 12px;
+
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    margin-left: 80px;
+}
+
+
+.filter button{
+   border:none;
+    height: 2.7rem;
+    width: 140px;
+    background-color: white;
+    border-left:0.5px solid rgba(0,0,0,0.2);
+    border-right:0.5px solid rgba(0,0,0,0.2);
+    color: black;
+    font-size: 1rem;
+
+
+}
+.filter button:hover{
+    background-color: rgba(0,0,0,0.1);
+}
